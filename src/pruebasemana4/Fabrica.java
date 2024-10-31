@@ -31,6 +31,11 @@ public class Fabrica {
      
      System.out.println("Favor ingrese las horas que trabajo en el dia 7");
      dia7=entrada.nextInt();
+     
+     int horast=dia1+dia2+dia3+dia4+dia5+dia6+dia7;
+        System.out.println("Trabajo un total de "+horast+ "horas");
+     int se=horast/7;
+        System.out.println("Trabajo un promedio de"+se+" horas");
     }
     
 }
